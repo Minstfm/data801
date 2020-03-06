@@ -4,35 +4,35 @@ body {
 }
 
 .container {
-	margin-top: 3%;
-	margin-bottom: 3%;
+	margin-top: 3% !important;
+	margin-bottom: 3% !important;
 }
 
 .card {
-	border: none;
-	color: #c2c2da;
+	border: none !important;
+	color: #c2c2da !important;
 }
 
 .card-header {
-	background-color: #0e1d22;
-	border: none;
-	color: #0e9d9d;
-	font-size: 20px;
+	background-color: #0e1d22 !important;
+	border: none !important;
+	color: #0e9d9d !important;
+	font-size: 20px !important;
 }
 
 .card-body {
-	background-color: #1c3c41;
-	font-size: 17px;
+	background-color: #1c3c41 !important;
+	font-size: 17px !important;
 }
 
 .card-footer {
-	background-color: #264e54;
-	font-size: 14px;
+	background-color: #264e54 !important;
+	font-size: 14px !important;
 }
 
 .chart {
-	margin-top: 3%;
-	padding: 1%;
+	margin-top: 3% !important;
+	padding: 1% !important;
 }
 
 ::-webkit-scrollbar {
