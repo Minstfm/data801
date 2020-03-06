@@ -1,0 +1,27 @@
+body {
+	overflow: hidden;
+	background-color: #0e242d;
+	font-family: Verdana;
+	font-size: 18px;
+}
+
+.row {
+	margin: 3% !important;
+}
+
+.panel {
+	background-color: #1c3c41 !important;
+	border: none !important;
+	color: #c2c2da !important;
+}
+
+.panel-heading {
+	background-color: #0e1d22 !important;
+	border: none !important;
+	color: #0e9d9d !important;
+}
+
+.chart {
+	margin-top: 3%;
+	padding: 1%;
+}
