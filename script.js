@@ -1,5 +1,4 @@
 var app = angular.module('online801', ["chart.js"]);
-
 app.config(["ChartJsProvider", function(ChartJsProvider) {
 	ChartJsProvider.setOptions({
 		global:{
@@ -10,9 +9,8 @@ app.config(["ChartJsProvider", function(ChartJsProvider) {
 		}
 	});
 }]);
-
 app.controller('controller801', function($scope, $http) {
-	$http.get("data.json").then(function (response) {
+	$http.get("https://pxumarsb5ewzt3a.000webhostapp.com/data.json").then(function (response) {
 		var processData = response.data;
 		var a801 = [];
 		var deadmaze = [];
